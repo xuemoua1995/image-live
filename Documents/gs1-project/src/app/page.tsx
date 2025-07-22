@@ -2,7 +2,7 @@ import Image from "next/image";
 import CardSlide from "../components/slidepage"
 import UserCard from "../components/ui/user-card"
 import ThreDmarquee from "../components/3d-marquee"
-import Tabs from "../components/tabs-demo"
+import Tabs from "../components/tabs-section"
 import Footer from "../components/layout/Footer"
 export default function Home() {
   return (
