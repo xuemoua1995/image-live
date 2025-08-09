@@ -1,0 +1,667 @@
+{
+  "loading": "正在加载。。。",
+  "close":"关闭",
+  "property": "房产",
+  "area": "面积",
+  "Our_contact": "联系方式",
+  "mon-sun":"星期一至星期天",
+  "am":"上午",
+  "pm":"下午",
+  "Recent_News":"最新新闻",
+  "partner":"我们的合作伙伴",
+  "location":"地点",
+  "no-favourite":"无收藏内容。",
+  "zion-property":"锡安集团地产",
+  "zion-news":"锡安集团新闻",
+  "zion-news-activities":"锡安集团新闻&活动",
+  "zion-property-find":"与锡安集团一起追寻您的梦想之家",
+  "topic":"常见问题解答",
+  "question1":"老挝籍公民持有多少年的公寓产权？" ,
+  "answer1":"老挝籍公民购买该公寓后拥有该公寓的所有权及永久使用权。 ",
+  "question2":"外国籍公民持有多少年的公寓产权？ ",
+  "answer2":"非老挝国籍客户购买本公寓后拥有该公寓的所有权及50年土地使用权，50年土地使用权到期后，每次可延期30年。",
+  "question3":"购买公寓如何支付？ ",
+  "answer3":"购买公寓时，您可以选择一次性全款支付，手续简便且能够享受较大的折扣和优惠；也可以选择灵活的分期付款，根据分期时间，仍然可以享受一定的优惠。您可以根据自身的需求选择最合适的支付方式，并提前了解我们的具体优惠政策。 ",
+  "question4":"全款一次性支付有哪些优惠？",
+  "answer4":"5%的折扣：全款支付可尊享5%的价格折扣。包租返利政策：一次性付清全款的业主可享受连续5年的每年8%的包租返利支持，返利政策到期后可延续5年，为投资者提供稳定的回报。免费出行服务：尊享365次万象市区免费出行服务，为业主提供便利的交通支持，提升居住体验。",
+  "question5":"分期付款有哪些优惠政策？",
+  "answer5":"1年分期付款业主付清购房款后可享受连续3年，每年7%的包租返利政策支持，到期后可延期7年，一年分期付款不计利息。2年分期付款业主付清购房款后可享受连续3年，每年6%的包租返利政策支持，到期后可延期6年。3年分期付款业主付清购房款后可享受连续2年，每年6%的包租返利政策支持,到期后可延期5年。",
+  "question6":"公寓套房内阳台面积是否全计价？",
+  "answer6":"公寓套房内阳台面积只按一半计算价格，让业主的投资更具性价比。",
+  "question7":"对于安全保障方面提供服务？",
+  "answer7":"首长级安保，VG公寓拥有24小时安保人员值守+24小时CCTV监控+24小时无人机监控+24小时荷枪实弹军人安保值守。同时，VG小区外围超50%的区域有小护城河环绕，可作为与外界隔离的天然屏障，更增加了园区的安全性。 ",
+  "question8":"购买公寓的业主是否提供停车位？",
+  "answer8":"停车位充足，目前万象很多公寓的通病皆是停车位不够或停车需开车去离公寓很远的地方停车，但 VG 公寓按每套房配一个车位的标准进行配置，同时有多辆汽车的购房业主也可为其添置其他备用车位。 ",
+  "question9":"关于保洁服务的内容？",
+  "answer9":"购房自住型业主，可免费私享入户保洁服务3个月（每周两次）。",
+  "question10":"购买公寓的业主还尊享哪些服务？",
+  "answer10":"私享老挝重大项目投资咨询服务；使用锡安集团出租车、保洁及私人保镖服务的业主可永久尊享 30% 的折扣优惠。",
+"package1":{
+    "title":"公寓摄影",
+    "list1":"公寓摄影 150美金/间",
+    "list2":"公寓室内摄影",
+    "list3":"公寓室外摄影",
+    "list4":"无人机拍摄",
+    "list5":"不限拍摄照片数量"
+},
+"package2":{
+  "title1":"公寓摄影及摄像",
+  "list1":"公寓摄影及摄像 250美金/间",
+  "list2":"公寓室内摄影及摄像",
+  "list3":"公寓室外摄影及摄像",
+  "list4":"无人机摄影及摄像",
+  "list5":"不限拍摄照片数量"
+},
+"package3":{
+  "title":"房屋摄影",
+  "list1":"房屋摄影 300美金/ 栋",
+  "list2":"房屋室内摄影",
+  "list3":"房屋室外摄影",
+  "list4":"房屋无人机摄影",
+  "list5":"不限拍摄照片数量"
+},
+"package4":{
+  "title":"房屋摄影及摄像",
+  "list1":"房屋摄影及摄像400美金/ 栋",
+  "list2":"房屋室内摄影及摄像",
+  "list3":"房屋室外摄影及摄像",
+  "list4":"房屋无人机摄影及摄像",
+  "list5":"外加处理照片及剪辑视频"
+},
+"laotian-title":"老挝公民",
+"laotian-desc":"老挝公民 尊享永久产权",
+"fully-furni-title":"精装现房",
+"fully-furni-desc":"精装现房 拎包入住",
+"early-title":"付款达",
+"early-desc":"付款达50% 即可提前入住",
+  "nav": {
+    "moreInfo": "更多信息",
+    "home": "首页",
+    "our-service":"摄影合作",
+    "our-service-sub":"提供公寓及房屋摄影服务",
+    "service-package":"摄影及摄像套餐",
+    "realEstate": "房地产",
+    "buy": "租",
+    "rent": "购",
+    "sell": "出租",
+    "Manage_Rentals": "管理地产",
+    "advertise": "合作",
+    "explore": "探索",
+    "News": "地产新闻",
+    "News-detail": "新闻详情",
+    "Knowledge": "地产法律知识",
+    "Owners_Rent": "业主直租",
+    "Owner_Direct_Sales": "业主直售",
+    "aboutUs": "公司简介",
+    "language": "语言",
+    "favourites": "收藏夹",
+    "schedules": "浏览记录",
+    "setting": "账户设置",
+    "signOut": "退出",
+    "signIn": "登录",
+    "resetpass":"重置您的密码",
+    "resetpass-btn":"发送重置密码至电子邮件",
+    "resetpass-desc":"请输入您的电子邮件，我们将向您发送重置密码。",
+    "ourStory": "企业文化",
+    "ourTeam": "我们的团队",
+    "contact": "联系我们",
+    "profile": "账户设置",
+    "Convenient_services": "便民服务",
+    "Convenient_servicesM": "便民服务",
+    "feedback" : "您的建议"
+  },
+  "home": {
+    "more": "查看更多", 
+    "for-ward":" 下一个",
+    "back-ward":"后退",
+    "promotion":"房产促销",
+    "popular-places":"热门地点",
+    "popular-desc":"我们了解各个地段的重要性",
+    "property_types":"热门房型",
+    "choose_zion":"选择zion地产",
+    "find_dream_properties": "为您寻找梦想中的家园，为投资者创造卓越价值",
+    "via_zion_real_estate_agency": "",
+    "all": "全部",
+    "all-property": "全部房产",
+    "province": "省",
+    "city": "县",
+    "Main_city": "市",
+    "sale": "买",
+    "buy": "买",
+    "notfound":"找不到頁面",
+    "back":"回家",
+    "type": "类型",
+    "filter": "筛选",
+    "rent": "租",
+    "forRent": "出租",
+    "forBuy": "出售",
+    "popular":"在老挝租房和购房的热门搜索",
+    "property-swimming":"配有现代化的泳池",
+    "property-swimming-desc":"在泳池里畅游，追逐您的梦想家园",
+    "property-gym":"配备先进的健身房设施",
+    "property-gym-desc":"在现代化的健身房里，选择您的梦想家园",
+    "property-balcony":"配备宽敞的阳台",
+    "property-balcony-desc":"选择配有优质的阳台作为您的公寓",
+    "best-price":"最具性价比的公寓",
+    "best-price-desc":"以最优惠的价格圆您的梦想之家",
+    "service":"我们的服务",
+    "agents":"合作代理商服务",
+    "landlords":"房东服务",
+    "Rents":"租户服务",
+    "Buyers":"买家服务",
+    "largest":"丰富的选择",
+    "largest1":" 老挝最大租售房源之一",
+    "professional":"专业团队",
+    "professiona1":"Zion集团团队为您提供快速、专业并且充满笑容的服务",
+    "free":"全程免费",
+    "free1":"在您决定与我们租房或购房之前，租客和买家无需支付任何费用。",
+    "best-deals":"超值优惠",
+    "best-deals1":"新房源以最优惠价格出租或出售",
+    "Brand_New": "全新房产",
+    "byOwner": "优质房产推荐 ",
+    "OwnerRent": "业主直租",
+    "OwnerSale": "房东购买",
+    "recommend": "推荐",
+    "search_property_id_name": "关键词搜索",
+    "search": "搜索",
+    "reset": "重置",
+    "cancel": "取消",
+    "our_featured_exclusives": "我们的特色",
+    "feature_section_description": "所有客户皆可从我司平台免费获取地产资讯, 我们仅向高端客户及地产开发商收取专业地产服务费。",
+    "new_to_market": "新市场",
+    "variety_lands": "土地类型",
+    "wish_to_sell_or_lend_properties": "想在老挝出售或出租您的房产吗？",
+    "unlock_property_potential": "想缩短您房产的成交周期吗？- 使用我们神奇的地产平台出租或出售您的房产。",
+    "contact_us": "联系我们",
+    "need_to_buy_perfect_property": "想买到近乎完美的房产吗？",
+    "discover_dream_home_opportunity": "寻找您的梦想家园或投资机会！探索我们海量的高端别墅、公寓、商铺、写字楼、土地、高尔夫球场、五星级酒店等。",
+    "province_section_cities": [
+      {
+        "title": "万象市",
+        "img": "image_url_1",
+        "number": 20
+      },
+      {
+        "title": "琅勃拉邦",
+        "img": "image_url_2",
+        "number": 20
+      }
+    ]
+  },
+  "card": {
+    "sale": "买",
+    "rent": "租",
+    "bedrooms": "卧室",
+    "bathrooms": "卫生间",
+    "livingrooms": "客厅",
+    "kitchen": "厨房",
+    "sqm": "平方米",
+    "details": "查看详情",
+     "best-sale":"畅销售"
+  },
+  "data": {
+    "view_all_photos": "查看全部",
+    "photos": "图片",
+    "3d-image":"3D 图像",
+    "view_video": "查看视频",
+    "sale": "卖",
+    "rent": "租",
+    "start_price":"起步价",
+    "about_this_property": "关于房产",
+    "sale_or_rent": "卖或租",
+    "status_sale": "状态",
+    "property_id": "ID",
+    "cafe": "咖啡吧",
+    "baths": "卫生间",
+    "dining":"餐厅",
+    "meeting":"会议室",
+    "laundry":"洗衣房",
+    "bedRoom":"卧室",
+    "bar":"吧台",
+    "restaurant":"餐馆",
+    "poolBar":"泳池酒吧",
+    "parking": "停车场",
+    "kitchen": "厨房",
+    "balcony": "阳台",
+    "swimming_Pool": "泳池",
+    "garden": "花园",
+    "basketBall": "篮球场",
+    "sqm": "平米",
+    "gym":"健身房",
+    "playground":"儿童游乐园、",
+    "roomtype":"房间类型",
+    "feasibility":"设施",
+    "highlights": "亮点",
+    "show": "显示",
+    "hide": "隐藏",
+    "listed_on": "列入 ",
+    "map_location": "地图",
+    "features": "特色",
+    "floor_plan": "平面图",
+    "property_details": "地产详情",
+    "surroundings": "周边设施",
+    "similar_listings": "相似列表",
+    "request_tour": "申请实地看房",
+    "contact_us": "联系我们",
+    "send_now": "现在发送",
+    "phone_number": "(+856) 20-91555123",
+    "unit": "Unit",
+    "Interested" : "您对该房产感兴趣吗？立即联系我们！",
+    "call": "打电话"
+  },
+  "requestForm": {
+    "Request_a_tour": "请实地看房",
+    "nameLabel": "名字",
+    "namePlaceholder": "输入名字",
+    "emailLabel": "邮箱",
+    "dateLabel": "日期",
+    "descLabel": "Desc",
+    "descPlaceholder": "更多的联系方式如：微信ID、Line ID等...",
+    "emailPlaceholder": "输入邮箱",
+    "phoneLabel": "电话",
+    "phonePlaceholder": "输入电话",
+    "submitButton": {
+      "defaultText": "提交",
+      "loadingText": "正在加载"
+    },
+    "selectLabel":"我们该怎样帮您？",
+    "buy" : "我想购买地产",
+    "rent" : "我想租房产"
+  },
+  "agent": {
+    "our_Agents": "代理人",
+    "submitButton": {
+      "defaultText": "提交",
+      "loadingText": "正在加载"
+    }
+  },
+  "explore": {
+    "filterSection": {
+      "typeFilter": {
+        "label": "房产类型"
+      },
+      "typeSearch": {
+        "label": "搜索",
+        "placeholder": "搜索房产 ID/ 房产名"
+      },
+      "propertyFilter": {
+        "label": "房产过滤器"
+      },
+      "priceFilter": {
+        "label": "价格"
+      },
+      "settingButton": {
+        "label": "全部筛选"
+      },
+      "mapButton": {
+        "label": "地图"
+      }
+    },
+    "breadcrumbs": {
+      "home": "首页",
+      "explore": "探索",
+      "currentPage": "页"
+    },
+    "header": {
+      "title": "探索",
+      "subtitle": {
+        "allStatus": "租或卖"
+      }
+    },
+    "sortDropdown": {
+      "label": "排序"
+    },
+    "cardWrapper": {
+      "loadingIndicator": "正在加载"
+    }
+  },
+  "Price_Range": {
+    "price": "价格区间",
+    "priceRangeTitle": "价格区间",
+    "minimum": "最低价",
+    "maximum": "最高价",
+    "noMin": "最低价",
+    "noMax": "最高价"
+  },
+  "allFilter": {
+    "modalTitle": "全部",
+    "filterStatus": "筛选状态",
+    "propertyTypes": "房产类型",
+    "landTypes": "土地类型",
+    "industryTypes": "工业类型",
+    "price": "价格 ($)",
+    "squareMeter": "面积 (m²)",
+    "yearBuilt": "建造年份",
+    "cafe": "咖啡厅",
+    "livingRoom": "客厅",
+    "Dining_Room": "餐厅",
+    "baths": "卫生间",
+    "parking": "停车场",
+    "features": "特色",
+    "kitchen": "厨房",
+    "balcony": "阳台",
+    "swimming_Pool": "泳池",
+    "gym": "健身房"
+  },
+  "about": {
+    "hero": {
+      "title": "公司简介",
+      "subtitle": " "
+    },
+    "services": {
+      "for_sellers": {
+        "title": "出租人和卖家",
+        "desc": "如果您想销售或出租您的高端房产（包括别墅、公寓、写字楼、商铺、土地、五星级酒店、高尔夫球场、农场或工厂等）给客户，请联系我们，我们将动用10万+的客户资源帮您找到精准客户，尽快帮您成交。"
+      },
+      "for_buyers": {
+        "title": "租户和买家",
+        "desc": "如果您是高端房产买家或租户，只要您想购买或租赁房产（包括别墅、公寓、办公楼、商店、大型商业地块、五星级酒店、高尔夫球场、农场或工厂等），请与我们联系，我们将动用超过8万+的房产资源帮助您尽快找到优质房产"
+      },
+      "for_renters": {
+        "title": "For Renters",
+        "desc": ""
+      }
+    },
+    "intro": {
+      "title": "公司简介",
+      "content": "&nbsp;&nbsp;&nbsp;&nbsp;  作为老挝高端房地产服务的专业领航者，同时也是锡安集团有限公司旗下子公司，锡安地产拥有18年房地产运营和管理经验。我们致力于为客户和业主提供高端别墅、公寓、商铺、写字楼、高尔夫球场、五星级酒店和大型商业地块的租赁与销售服务。与此同时，我们还为大型房地产开发商提供投资咨询、项目选址、可行性研究、资产评估、室内装修设计、施工、工程总承包、营销策划、租赁和销售、安保及物业管理等全方位配套服务。"
+    },
+    "contact": {
+      "title": "联系我们"
+    },
+    "Contact_us": "联系我们。 <br /> 我们期待您的来信！",
+    "Our_location" : "我们的办公位置",
+    "Headquarter": "万象 (总部)",
+    "Address":"地址",
+    "Address2": "(老挝）万象市，西科达奔县，瓦岱村，苏发努翁路"
+  },
+  "forsale": {
+    "header": {
+      "title": "愿无数宽敞大楼，为您打造更安全、更放心的理想家园！",
+      "subtitle": ""
+    },
+    "options": {
+      "sell_partner_agent": {
+        "title": " 您是高端房产的租户或买家吗？",
+        "description": "&nbsp;&nbsp;&nbsp;&nbsp; 请联系我们，我们有超过8万+的房产资源供您挑选；同时我们会为房产购买自住及投资者提供老挝房产购买的法律法规、投资回报率、优势地段筛选、周边配套、房产升值潜力预估、房产变现等咨询服务。",
+        "availability": "",
+        "compare_options": ""
+      },
+      "sell_opendoor": {
+        "title": "您是有高端房产需要出租、出售的业主吗？",
+        "description": "&nbsp;&nbsp;&nbsp;&nbsp; 请联系我们，我们有高达10万+的潜在客户，总有客户会对您的房产感兴趣；同时我们会为您提供房产独家托管、带看、合同起草、签约、安保、 家政保洁、工程维修等管家式地产服务。",
+        "note": ""
+      },
+      "sell_agent": {
+        "title": "您是想来老挝投资的地产开发商吗？",
+        "description": "&nbsp;&nbsp;&nbsp;&nbsp; 请联系我们，我们会为您提供投资咨询、项目选址、可研、资产评估、室内设计与装修、建筑施工、工程总承包、营销策划、包租包售、安保及物业管理等全套地产服务解决方案。",
+        "note": ""
+      }
+    },
+    "sell_traditionally": {
+      "title": "地产服务承诺：",
+      "description": "",
+      "contact_agent": "联系销售",
+      "contact_us": "联系我们",
+      "why_sell_traditionally": {
+        "list": {
+          "list1": "所有通过我司成交的购房客户我们会为您提供连续10年的包租返利地产服务。",
+          "list2": "我司所有客户皆可享受实地看房产时的车辆接送、合同起草、谈判签约及成交后的有偿安保、家政保洁等管家式服务。",
+          "list3": "我司所有普通VIP客户和业主可免费享有1年全万象市16分钟车程内的9次免费接/送机服务。",
+          "list4": "我司所有白银VIP客户和业主可免费享有2年全万象市26分钟车程内的18次免费接/送机服务。",
+          "list5": "我司所有黄金VIP客户和业主可免费享有我司连续3年万象市36分钟内的36次免费机场接/送服务。<br /> <br /> 3年内每年可调用我司3人组安保人员及安保车辆护其万象市内出行3次。",
+          "list6": "我司钻石VIP客户和业主可免费享有我司连续6年万象市内56分钟车程内的72次车辆出行服务。<br /> <br /> 6年内每年可调用我司6人组安保人员及安保车辆护其万象省内出行6次。",
+          "list7": "我司至尊黑卡VIP客户和业主可免费享有我司永久万象市内的车辆出行服务，并可随时调用我司9人组安保人员及防弹车保护其老挝全国出行（不限次数）。",
+          "list8": "以上“地产服务承诺”的最终解释权归我司所有。"
+        }
+      },
+      "disclaimer": ""
+    },
+    "more": {
+      "one": {
+        "title": "客户服务温馨提示",
+        "infos": "如您需租高于700美金/月（含700美金/月）或购买高于80,000.00美金（含80,000.00美金）的房产，欢迎联系我司房产置业顾问，我司将为您提供专业地产咨询服务，并对所推荐房产的真实性及准确性负责。",
+        "infos2": "如您需租低于700美金/月的房产或需购买售价低于80,000.00美金的房产，您可在我司地产平台上免费搜索房产信息，并直接联系到业主，公司对此不收取任何费用；但公司对该房产的真实性或准确性不承担任何法律责任。"
+      },
+      "two": {
+        "title": "业主服务温馨提示",
+        "infos": "如您是房产业主，且您的房产月租金高于700美金/月（含700美金/月）或售价高于80,000.00 美金（含80,000.00美金），欢迎您联系我司24小时服务热线，我司将为您的地产项目提供照片及视频拍摄、视频剪辑及广告编辑与推广等有偿服务。",
+        "infos2": "如您是房产业主，且您的房产月租金低于700美金/月或售价低于80,000.00 美金，欢迎您在我司平台投放广告，我司将不收取您任何费用。但您必须对该房产的真实性及准确性负责，并提供与该房产相匹配的业主身份证明、联系方式及真实的房产证或土地证照片（为了保护您的房产安全，该房产证或土地证照片可加水印，我司会对您的身份信息严格保密）。房产成交完毕，您需第一时间主动下架该房产广告或通知我司员工协助您下架该房产信息，如自该房产成交之日起3个自然日内仍未下架此房产广告，该房产账号将被永久封禁。"
+      },
+      "three": {
+        "title": "",
+        "infos": ""
+      }
+    },
+    "addProperty": "添加地产"
+  },
+  "edit_profile": {
+    "account": "账户设置",
+    "favourites": "收藏夹",
+    "schedule": "浏览记录",
+    "first_name": "名字",
+    "last_name": "姓",
+    "email": "邮件",
+    "phone": "电话",
+    "join_date": "加入",
+    "last_update_date": "最后更新",
+    "save": "保存",
+    "created_on": "创建",
+    "pending": "在等待中",
+    "confirm": "确认",
+    "cancel": "取消",
+    "tour_date": "参观时间"
+  },
+  "signIn": {
+    "welcomeTitle": "欢迎来到锡安地产",
+    "signInTab": "登录",
+    "newAccountTab": "注册",
+    "familyNameLabel": "姓 ",
+    "givenNameLabel": "名字",
+    "genderNameLabel": "性别",
+    "select-gender":"选择性别",
+    "male":"男",
+    "female":"女",
+    "other":"其他",
+    "emailLabel": "邮箱",
+    "passwordLabel": "密码",
+    "passwordRequirements": {
+      "length": "密码必须包含8个字符 ",
+      "mix": " 由字母和数字组成 "
+    },
+    "forgotPassword": "忘记密码？",
+    "errorWarning": "警告",
+    "errorMessage": "用户凭据填写错误、请查看您的用户名或密码 ？",
+    "signInButton": "登录",
+    "submitButton": "提交",
+    "loadingButton": "正在加载...",
+    "googleSignInText": "使用Google账号登录"
+  },
+  "footer": {
+    "categories": "类别",
+    "social_media": "社交媒体",
+    "develop-by":"zion集团团队打造"
+  },
+  "map": {
+    "map_location": "地图位置",
+    "current_map": "现行地图"
+  },
+  "story": {
+    "our_story": "",
+    "sub_title": "天行健，君子以自强不息； <br />  地势坤，君子以厚德载物。",
+    "company_commitment": "公司承诺",
+    "sub_company": " 我们将对向客户推荐房产的真实性与合法性负责，并对向业主所推荐的客户进行信用及背景调查，以便简化签约流程，节约业主与客户的宝贵时间， 充分保护业主与客户的权益。",
+    "origin_of_group": {
+      "title": "集团公司名称由来",
+      "subtitle": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;锡安集团有限公司作为老挝的知名企业，其旗下经营着地产、安保、农业、贸易、高科技产品开发与运营、物业服务等多个行业，公司拥有强大的资金实力及政商资源。在拥有硬实力的同时，公司极其重视打造公司自身的软实力，尤其是公司的企业文化建设，以下为我司名称“锡安”的由来：",
+      "z": "<b>Z</b> - 在公司发展的初期，我们面临着诸多挑战，如产品质量、人才、渠道、市场、现金流等。公司的发展并非一帆风顺，犹如英文中的Z字母一样曲曲折折。因此，我们选择将“Z”作为公司名称的首字母，它提醒我们要时刻准备迎接困难，保持坚韧不拔的精神，勇敢面对挫折，在曲折中不断向前迈进！   <br /><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “羔羊跪乳，乌鸦反哺，蛇与雀鸟皆以恩相报。”动物尚有感恩之心，何况人类乎？在与公司共同成长的过程中，我们希望员工能够饮水思其源，对曾经给予我们关爱的人或组织（客户、亲人、朋友、公司等）心存感恩之心。湄公河作为老挝人民的根，是养育了世世代代老挝人的母亲河。湄公河宛如字母Z一样蜿蜒曲折，因此我们将湄公河融入Z字母的理念中。山离不开土，所以能屹立于高峰之上；海离不开水，所以能广纳万水而深邃。湄公河虽不及海洋宽阔，却奔腾不息，包容万象。因此，湄公河时刻提醒我们保持谦逊与包容的胸怀。",
+      "i": "<b>I</b> - 国与国之间的竞争，如同企业之间的较量，归根结底是高科技的竞争。作为一家立足老挝的本土企业，投身高科技行业，并在这一领域保有一席之地，始终是我们的梦想。在公司未来规划中，我们将迈入人工智能（AI）相关产业，开发并运营IT产品，因此我们选择“I”字母，象征着未来的发展方向。",
+      "o": "<b>O</b>  - 企业要发展，就要有追求卓越与完美的心态，把每一件事做到极致，才能引领公司登上行业之巅。而字母‘O’就像满月高悬于夜空，但月圆则亏盈。因此，我们用字母“O”提醒大家，即便公司达到了巅峰，也不要骄傲自满。因为走向完美的下一步，可能是低谷和深渊。它时刻提醒我们，保持盈利能力，随时要有忧患和危机意识，并始终保持谦逊的态度！ <br /><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 同时，作为在老挝土生土长的企业，我们希望将老挝的标志性元素融入到公司名称中。因此，我们选择了老挝的国花——占芭花，象征着世间所有的美好、荣誉与祝福。而花瓣相连形成的圆形，恰似字母“O”，完美包裹着占芭花，象征着公司团结一心、共同奋斗的集体精神！",
+      "n": "<b>N</b> - 锡安集团涉及到安保业务，安保用什么字母来表达比较好呢？经过思考，我们认为自古以来保护人类最具代表性的建筑莫过于中国的长城。因此，我们对N字母做了如长城般的阶梯设计。同时也寓意着我们想守护我们所爱的亲人、朋友、公司、国家及世间的一切美好。 <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国的长城始建于春秋战国时期，距今已有2000多年，却依然宏伟壮观，故我们也想借长城的形象来祝愿公司能如长城一样长存于世，基业长青！<br /><br /> 因此，以上所有字母组合在一起，形成了“ZION”这个名字。<br /><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“ZOIN”是古希伯来语，在天主教圣经中称为锡安，一般是指耶路撒冷，象征着神居住的地方。而神居之处，必然是全世界最美好和令人梦寐以求的地方！同时，锡安也是古时候正义的人民聚集之地，这刚好与我司所从事的房产工作宗旨相契合——“为正义的客户找到梦想家园”。锡安地产期待与大家一起相遇、交流与共同成长，一起见证世间美好！"
+    },
+    "Onimg": {
+      "title1": "一起更好",
+      "title2": "包括和授权",
+      "title3": "大局思考, 迅速行动",
+      "title4": "按时交付质量，每次"
+    },
+    "warning": {
+      "title": "警告",
+      "sub_title": "大丈夫有所为，有所不为！如果您所从事行业涉及任何违法犯罪行为，无论您多么富有，请不要联系我们！我司概不接待！我们将依法将您移交警方处理！"
+    }
+  },
+  "news": {
+    "title": "地产生活新闻",
+    "read-more":"了解更多",
+    "subtitle": "提升您的生活品质，用我们的灵感故事、创意点子和专家建议，解锁您梦想家园的无限可能，助您轻松实现理想生活！"
+  },
+  "knowledge": {
+    "pageTitle": "知识",
+    "Legal_Knowledge": "地产法律知识",
+    "searchPlaceholder": "搜索帮助与学习",
+    "noResultsFound": "未找到结果",
+    "topArticlesTitle": "老挝房地产法律",
+    "topArticlesTitle1": "土地法",
+    "topArticlesTitle2": "公寓法",
+    "topArticlesTitle3": "土地税法",
+    "getMoreHelpTitle": "更多帮助",
+    "hotlineTitle": "热线电话",
+    "wechatTitle": "微信",
+    "whatsappTitle": "WhatsApp",
+    "gettingstart": "开始",
+    "trip": "提示与教程",
+    "truoble": "解决难题"
+  },
+  "hotline": {
+    "title": "投诉热线",
+    "infos": "如您对我司员工的服务态度不满或发现我司员工或业主所推荐的地产项目有任何虚假宣传内容，欢迎您随时拨打我司24小时地产投诉热线(+856) 20-91 555 123，我司将第一时间严肃处理。",
+    "infosMobile": "如您对我司员工的服务态度不满或发现我司员工或业主所推荐的地产项目有任何虚假宣传内容，欢迎您随时拨打我司24小时地产投诉热线 <br /> (+856) 20-91 555 123，我司将第一时间严肃处理。"
+  },
+  "contact": {
+    "hotline": "服务热线"
+  },
+  "services": {
+    "title": "便民服务",
+    "Our_Partners": "我们的推荐",
+    "More_about": "更多关于",
+    "We_choose_the" : "我们为您选择最好的",
+    "All_Services" :"所有服务"
+  },
+  "manage_property": {
+    "all": "全部 ({{totals}})",
+    "for_rent": "出租 ({{totals}})",
+    "for_sale": "出售 ({{totals}})",
+    "properties": "地产",
+    "add_property": "业主上传房产",
+    "search": "关键词搜索",
+    "ready_to_add": "您好, {{name}} 准备添加您的地产？",
+    "providing_info": "第一步是提供一些基本的信息",
+    "find_renter": "一旦您找到租户或买家，您就可以自行筛选、签署合同并收取成交金额。",
+    "solution_saves_time": "我们的一体化解决方案可节省时间",
+    "list_property": "列出您的房产以供出租或出售",
+    "receive_contact": "接收联系人",
+    "create_sign_leases": "创建和签署租约",
+    "receive_payments": "收取租金或销售付款"
+  },
+  "addNewProperty": {
+    "title": "输入新地产信息",
+    "clearButtonLabel": "删除",
+    "saveButtonLabel": "保存",
+    "next":"next",
+    "Create_at": "在创建",
+    "tabs": {
+      "Description": "说明",
+      "Media": "媒体",
+      "Location": "位置",
+      "Detail": "细节",
+      "Amenities": "便利设施"
+    },
+    "desc": {
+      "ownerNameLabel": "业主名字",
+      "ownerEmailLabel": "业主邮箱 (可选)",
+      "ownerPhoneLabel": "业主号码（如有多个号码可用逗号分隔",
+      "ownerInformation": "业主信息",
+      "propertyDescription": "地产描述",
+      "propertyName": "地产名字",
+      "propertyType": "地产类型",
+      "propertyStatus": "地产状况",
+      "feature": "特色",
+      "highlight": "亮点",
+      "inputFeatureAndPressEnter": "输入数字，并按回车键",
+      "inputHighlightsAndPressEnter": "输入亮点并按回车键",
+      "moreInformationAboutProperty": "关于更多地产的信息",
+      "chooseAPropertyType": "选择地产类型",
+      "selectOptions": "选择选项",
+      "inputPrice": "输入价格",
+      "chooseAStatus": "选择状态",
+      "More_information": "关于更多地产的信息"
+    },
+    "media": {
+      "propertyMediaTitle": "地产媒体",
+      "uploadPhotosLabel": "上传您房产的照片 ",
+      "dragOrClickLabel": "请将您的地产照片添加在这里",
+      "uploadingLabel": "正在加载...",
+      "Upload": "上传",
+      "From_Social": "来自社交媒体",
+      "imagesLabel": "图片",
+      "videoOptionLabel": "视频选项",
+      "embedVideoIdPlaceholder": "插入视频",
+      "embedVideoIdWht": "什么是视频 ID 呢",
+      "videoFromLabel": "视频来自",
+      "youtube": "Youtube",
+      "facebook": "FaceBook",
+      "floorPlanTitle": "平面图",
+      "uploadFloorPlanLabel": "请将您的房产平面图上传到这里，或者单击选择文档",
+      "uploadVideosPlanLabel": "请将您拍摄剪辑的视频上传到这里，最大500MB",
+      "floorPlanImagesLabel": "平面图图片"
+    },
+    "location": {
+      "propertyLocationTitle": "地产位置",
+      "addressLabel": "地址",
+      "chooseProvinceLabel": "选择省份",
+      "chooseCityLabel": "选择城市",
+      "chooseDistrictLabel": "选择县",
+      "mapLocationLabel": "地图位置",
+      "latitudeLongitudePlaceholder": "经纬度（逗号分隔） "
+    },
+    "detail": {
+      "propertyDetailTitle": "更多的地产详情",
+      "titleInputLabel": "输入详情",
+      "Details":"细节",
+      "detailsInputLabel": "输入细节（逗号分隔）",
+      "addToListButton": "添加到列表 ",
+      "listTitle": "列表",
+      "Title": "标题",
+      "Description": "说明"
+    },
+    "amenities": {
+      "title": "地产设施",
+      "languageSelection": "选择语言",
+      "addAmenityButton": "添加便利设施",
+      "titleLabel": "标题",
+      "description1Label": "详细地址",
+      "description2Label": "距离 例如：10分钟",
+      "addToListButton": "添加到列表",
+      "listTitle": "列表",
+      "noSurroundingsMessage": "尚未添加周围环境",
+      "Drive": "驾驶",
+      "Walk": "步行",
+      "Title": "标题",
+      "Des_1": "Desc 1",
+      "Des_2": "Desc 2",
+      "On": "On"
+    }
+  },
+  "feedback": {
+    "Give_feedback": "给我们反馈",
+    "feedback": "反馈与建议",
+    "sub1" : " 我们期待您的反馈！",
+    "sub2" : "请给我们一些反馈，帮助我们做得更好，还有机会领取礼物哦！",
+    "Provide_Feedback": "提供您的意见",
+    "Name": "姓",
+    "Email": "邮箱",
+    "Phone": "电话",
+    "Description":"说明",
+    "Submit_Feedback": "提交反馈"
+  }
+}

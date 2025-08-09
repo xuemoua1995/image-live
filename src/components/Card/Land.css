@@ -1,0 +1,111 @@
+.land-thumb{
+    position: relative;
+}
+
+.land-thumb::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 0,rgba(0,0,0,0) 50%,rgba(0,0,11) 100%);
+}
+/*
+.land-thumb img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    vertical-align: top;
+}*/
+
+
+.land-item {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 3%;
+    overflow:hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.land-item img:hover{
+    transition: .5s;
+    transform: scale(1.1);
+}
+/*.land-item:first-child{
+    grid-column: span 2;
+    grid-row: span 2;
+}*/
+
+
+.land-price{
+    position: absolute;
+    bottom: 7%;
+    font-size: 20px;
+    left: 20px;
+    color: white;
+    font-weight: bold;
+    z-index: 2;
+    padding: 6px 10px 2px 10px;
+}
+/* .land-item:first-child .land-price{
+    font-size: clamp(20px, 2vw, 20px);
+} */
+/* .land-item:first-child .land-item-body {
+    font-size: clamp(11px, 1.5vw, 18px);
+} */
+.land-item:first-child img{
+    aspect-ratio: 4/3;
+}
+.land-item img{
+    width: 100%;
+    aspect-ratio: 10/7;
+    vertical-align: top;
+}
+.land-item-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.land-item-body{
+    flex: 1;
+    padding: 10px;
+    text-align: start;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.land-item-body address{
+   font-style:normal;
+   color: #5c5c5c;
+}
+@media (max-width:1100px) {
+    .land-item:nth-child(7n+6){
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .land-price{
+        position: absolute;
+        bottom: 7%;
+        font-size: 16px;
+        left: 20px;
+        color: white;
+        font-weight: bold;
+        z-index: 2;
+    }
+}
+
+@media (max-width:500px) {
+    .land-item:first-child{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .land-item:first-child img{
+        aspect-ratio: 10/7;
+    }
+}

@@ -1,0 +1,216 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.hero-intro .inner {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.hero-intro {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.onStoryMain {
+    height: 500px;
+    background-color: #001751;
+    background-image: url('../../assest//img/story/01.jpg');
+}
+
+.wp-block-heading {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+
+.aaa {
+    position: relative;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+/* Responsive styles for iPad */
+@media (max-width: 1024px) {
+    .onStoryMain {
+        height: 400px;
+        /* Adjust height for iPad */
+    }
+}
+
+/* Responsive styles for phones */
+@media (max-width: 767px) {
+    .onStoryMain {
+        height: 300px;
+        /* Adjust height for phones */
+    }
+}
+
+
+.pb-8,
+.py-8 {
+    padding-bottom: 3.5rem !important;
+}
+
+.pt-8,
+.py-8 {
+    padding-top: 3.5rem !important;
+}
+
+.containerStory,
+.block,
+.block-padded,
+.brand-grid .inner,
+.pagination {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Plsasda {
+    position: relative;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.eyebrow {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    text-align: left !important;
+}
+
+.h2-ivar {
+    font-weight: bold;
+    line-height: 1.3em;
+}
+@media (min-width: 300px) {
+
+    .containerStory-sm,
+    .containerStory,
+    .block,
+    .block-padded,
+    .brand-grid .inner,
+    .pagination {
+        max-width: 540px;
+        
+    }
+    .h2-ivar {
+        font-size: 20px;
+    }
+}
+@media (min-width: 576px) {
+
+    .containerStory-sm,
+    .containerStory,
+    .block,
+    .block-padded,
+    .brand-grid .inner,
+    .pagination {
+        max-width: 540px;
+    }
+    .h2-ivar {
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .containerStory-md,
+    .containerStory-sm,
+    .containerStory,
+    .block,
+    .block-padded,
+    .brand-grid .inner,
+    .pagination {
+        max-width: 720px;
+    }
+
+    .pb-md-11,
+    .py-md-11 {
+        padding-bottom: 5rem !important;
+        padding-top: 5rem !important;
+    }
+
+    .eyebrow {
+        margin-bottom: 1rem !important;
+    }
+
+    .h2-ivar {
+        font-size: 25px;
+        line-height: 1.5em;
+        text-align: left !important;
+        margin-bottom: 2rem !important;
+        margin-top: 0 !important;
+    }
+}
+@media (min-width: 992px) {
+
+    .containerStory,
+    .block,
+    .block-padded,
+    .brand-grid .inner,
+    .pagination {
+        max-width: 960px;
+    }
+
+    .Plsasda {
+        flex: 0 0 41.6666666667%;
+        max-width: 41.6666666667%;
+    }
+
+    .containerStory-lg,
+    .containerStory-md,
+    .containerStory-sm,
+    .containerStory,
+    .block,
+    .block-padded,
+    .brand-grid .inner,
+    .pagination {
+        max-width: 960px;
+    }
+
+    .hero-intro .inner {
+        padding-top: 8.5rem !important;
+        padding-bottom: 8.5rem !important;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .containerStory-xl,
+    .containerStory-lg,
+    .containerStory-md,
+    .containerStory-sm,
+    .containerStory,
+    .block,
+    .block-padded,
+    .brand-grid .inner,
+    .pagination {
+        max-width: 1600px;
+    }
+}
+
+
+
+
+
+
+
+

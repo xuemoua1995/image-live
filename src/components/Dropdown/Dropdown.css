@@ -1,0 +1,162 @@
+.dd-wrapper{
+    position: relative;
+    color: #333;
+    text-transform: capitalize;
+}
+.dd-selected{
+    position: relative;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #b7b7b7b9;
+    border-radius: 5px;
+    padding: 0 30px 0 15px;
+    height: 45px;
+    cursor: pointer;
+    color: #707070;
+}
+.dd-selectedany{
+    position: relative;
+    width: 200px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #b7b7b7b9;
+    border-radius: 5px;
+    padding: 0 30px 0 15px;
+    height: 45px;
+    cursor: pointer;
+    color: #707070;
+}
+.dd-selectedany::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid #aeaeae;
+    transition: transform 0.2s;
+}
+.dd-selectedany.active::after{
+    transform: translateY(-50%) rotate(180deg);
+}
+.dd-show-color{
+    color: #000;
+}
+.dd-selected::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid #aeaeae;
+    transition: transform 0.2s;
+}
+.dd-selected.active::after{
+    transform: translateY(-50%) rotate(180deg);
+}
+.dd-list{
+    position: absolute;
+    list-style: none;
+    min-width: 220px;
+    top: calc(100% + 5px);  
+    background: #fff;
+    color: #252525;
+    border-radius: 5px;
+    border: 1px solid #c5c5c5;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.39);
+    z-index: 10;
+    max-height: 200px;
+    overflow: auto;
+    overscroll-behavior-inline: contain;
+}
+.dd-item{
+    padding: 10px 15px;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+}
+.dd-item:hover{
+    background: rgba(230, 229, 229, 0.521);
+}
+.select-icon{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 30px;
+    height: 100%;
+    background-color: transparent;
+    visibility: hidden;
+}
+.select-icon.show{
+    visibility: visible;
+}
+.select-icon::after{
+    content: "\2714";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+}
+
+/* @media (max-width: 2500px){
+    .dd-selected{
+        width: 145px;
+    }
+}
+@media (max-width: 1500px){
+    .dd-selected{
+        height: 45px;
+        width: 130px;
+        padding: 0 35px 0 10px;
+    }
+}
+
+@media (max-width: 1024px){
+    .dd-selected{
+        height: 35px;
+        width: 170px;
+        padding: 0 35px 0 10px;
+    }
+}
+@media (max-width: 450px){
+    .dd-selected{
+        height: 35px;
+        width: 180px;
+        padding: 0 35px 0 10px;
+    }
+} */
+
+
+/* price dropdown */
+.price-range-title{
+    padding: 12px;
+    text-align: start;
+    background: #e8e8e8;
+    color: #596B82;
+    font-weight: bold;
+}
+.price-lists{
+    display: flex;
+    gap: 20px;
+    padding:20px 15px;
+}
+.price-lists h4{
+    text-align: start;
+}
+.number-input{
+    width: 120px;
+    padding: 10px;
+    border: 1px solid rgb(186, 186, 186);
+    outline: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}

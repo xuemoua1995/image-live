@@ -1,0 +1,16 @@
+.height-parent {
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+.height-parent.active{
+    display: grid;
+    margin: 0;
+    grid-template-rows: 1fr;
+}
+.height-child{
+    width: 100%;
+    min-height: 0;
+    overflow: hidden;
+}
