@@ -1,6 +1,12 @@
 import { Helmet } from "react-helmet-async";
 import { useLocation, Link, useNavigate } from "react-router-dom";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -15,51 +21,63 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
 
- const onSubmit = (e: FormEvent<HTMLFormElement>) => {
-  e.preventDefault();
-  const form = new FormData(e.currentTarget);
-  const email = String(form.get("email") || "");
-  const password = String(form.get("password") || "");
+  const onSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = new FormData(e.currentTarget);
+    const email = String(form.get("email") || "");
+    const password = String(form.get("password") || "");
 
-  if (!email || !password) return;
-  setLoading(true);
-  setTimeout(() => {
-    setLoading(false);
-    toast.success("Signed in (demo)", {
-      style: {
-        background: "#22c55e", // Tailwind green-500
-        color: "white",
-        fontWeight: "bold",
-      },
-    });
-    navigate("/dashboard");
-  }, 700);
-};
+    if (!email || !password) return;
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+      toast.success("Signed in (demo)", {
+        style: {
+          background: "#22c55e", // Tailwind green-500
+          color: "white",
+          fontWeight: "bold",
+        },
+      });
+      navigate("/dashboard");
+    }, 700);
+  };
 
   return (
     <>
       <Helmet>
         <title>Sign in — Admin</title>
-        <meta name="description" content="Sign in to access your admin dashboard." />
+        <meta
+          name="description"
+          content="Sign in to access your admin dashboard."
+        />
         <link rel="canonical" href={canonical} />
       </Helmet>
 
       <div
         className="min-h-screen grid place-items-center bg-cover bg-center"
         style={{
-          backgroundImage: "url('https://static.mayorsofeurope.eu/uploads/2022/03/public-transport-europe-scaled.jpg')",
+          backgroundImage:
+            "url('https://static.mayorsofeurope.eu/uploads/2022/03/public-transport-europe-scaled.jpg')",
         }}
       >
-        <Card className="w-full max-w-md shadow-lg bg-white/90 backdrop-blur-sm">
-          <CardHeader className="text-center">
+        <Card className="w-full max-w-md shadow-lg bg-white/90 backdrop-blur-sm py-10 rounded-3xl">
+          <CardHeader className="text-center text-[#002B6E]">
             <CardTitle>Welcome back</CardTitle>
-            <p className="text-sm text-muted-foreground mt-1">Sign in to your account</p>
+            <p className="text-sm text-muted-foreground mt-1">
+              Sign in to your account
+            </p>
           </CardHeader>
           <CardContent>
             <form className="grid gap-4" onSubmit={onSubmit}>
-              <div className="grid gap-2">
+              <div className="grid gap-2 py-3">
                 <Label htmlFor="email">Email</Label>
-                <Input id="email" name="email" type="email" placeholder="you@example.com" required />
+                <Input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  required
+                />
               </div>
               <div className="grid gap-2 relative">
                 <Label htmlFor="password">Password</Label>
@@ -67,7 +85,7 @@ const Login = () => {
                   id="password"
                   name="password"
                   type={showPassword ? "text" : "password"}
-                  placeholder="••••••••"
+                  placeholder="Enter Password"
                   required
                 />
                 <button
@@ -78,14 +96,27 @@ const Login = () => {
                   {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
                 </button>
               </div>
-              <Button className="bg-blue-600" type="submit" disabled={loading}>
+              <Button
+                className="bg-orange-600 mt-6"
+                type="submit"
+                disabled={loading}
+              >
                 {loading ? "Signing in..." : "Sign in"}
               </Button>
             </form>
           </CardContent>
           <CardFooter className="flex justify-between text-sm text-muted-foreground">
-            <Link to="/" className="hover:underline">Term and condition</Link>
-            <Link to="/" className="hover:underline">Forgot password?</Link>
+            <a
+              href="https://www.gs1.org/terms-use"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Terms and Conditions
+            </a>
+            <Link to="/login" className="hover:underline">
+              Forgot password?
+            </Link>
           </CardFooter>
         </Card>
       </div>

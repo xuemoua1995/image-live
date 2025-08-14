@@ -87,6 +87,9 @@ export function AppSidebar() {
             <LogOut className="h-4 w-4" />
             {loading ? "Loding..." : "Logout"}
           </button>
+           
+            
+          
         </div>
       </SidebarContent>
     </Sidebar>

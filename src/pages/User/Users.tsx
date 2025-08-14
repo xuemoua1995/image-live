@@ -12,6 +12,7 @@ import { Button } from "@/components/ui/button";
 import { UserPlus } from "lucide-react";
 
 interface User {
+  id: number;
   name: string;
   email: string;
   role: string;
@@ -24,21 +25,21 @@ const Users = () => {
   const navigate = useNavigate();
 
   const users: User[] = [
-    { id:1, name: "Jane Cooper", email: "jane@example.com", role: "Admin", status: "Active" },
-    { id:2,name: "John Smith", email: "john@example.com", role: "Editor", status: "Invited" },
-    { id:3,name: "John Smith", email: "john@example.com", role: "Editor", status: "Invited" },
-    { id:4,name: "John Smith", email: "john@example.com", role: "Editor", status: "Invited" },
-    { id:5,name: "John Smith", email: "john@example.com", role: "Editor", status: "Invited" },
-    { id:6,name: "John Smith", email: "john@example.com", role: "Editor", status: "Invited" },
-    { id:7,name: "John Smith", email: "john@example.com", role: "Editor", status: "Invited" },
-    { id:8,name: "John Smith", email: "john@example.com", role: "Editor", status: "Invited" },
-    { id:9,name: "John Smith", email: "john@example.com", role: "Editor", status: "Invited" },
-    { id:10,name: "John Smith", email: "john@example.com", role: "Editor", status: "Invited" },
+    { id: 1, name: "Jane Cooper", email: "jane@example.com", role: "Admin", status: "Active" },
+    { id: 2, name: "John Smith", email: "john@example.com", role: "Editor", status: "Invited" },
+    { id: 3, name: "Alice Johnson", email: "alice@example.com", role: "Editor", status: "Pending" },
+    { id: 4, name: "Bob Williams", email: "bob@example.com", role: "Viewer", status: "Inactive" },
+    { id: 5, name: "Bob Williams", email: "bob@example.com", role: "Viewer", status: "Inactive" },
+    { id: 6, name: "Bob Williams", email: "bob@example.com", role: "Viewer", status: "Inactive" },
+    { id: 7, name: "Bob Williams", email: "bob@example.com", role: "Viewer", status: "Inactive" },
+    { id: 8, name: "Bob Williams", email: "bob@example.com", role: "Viewer", status: "Inactive" },
+    { id: 9, name: "Jane Cooper", email: "jane@example.com", role: "Admin", status: "Active" },
+    { id: 10, name: "Jane Cooper", email: "jane@example.com", role: "Admin", status: "Active" },
+
+    // Add more dynamic users here
   ];
 
-  const handleClick = () => {
-    navigate("/users/create");
-  };
+  const handleClick = () => navigate("/users/create");
 
   const getStatusColor = (status: string) => {
     switch (status.toLowerCase()) {
@@ -86,6 +87,7 @@ const Users = () => {
         <Table className="border border-gray-300 rounded-lg">
           <TableHeader className="bg-[#002B6E]">
             <TableRow>
+              <TableHead className="text-white border-b border-gray-300">ID</TableHead>
               <TableHead className="text-white border-b border-gray-300">Name</TableHead>
               <TableHead className="text-white border-b border-gray-300">Email</TableHead>
               <TableHead className="text-white border-b border-gray-300">Role</TableHead>
@@ -93,8 +95,9 @@ const Users = () => {
             </TableRow>
           </TableHeader>
           <TableBody>
-            {users.map((user, index) => (
-              <TableRow key={index} className="border-b border-gray-200">
+            {users.map((user) => (
+              <TableRow key={user.id} className="border-b border-gray-200">
+                <TableCell className="border-r border-gray-200">{user.id}</TableCell>
                 <TableCell className="border-r border-gray-200">{user.name}</TableCell>
                 <TableCell className="border-r border-gray-200">{user.email}</TableCell>
                 <TableCell className="border-r border-gray-200">{user.role}</TableCell>
