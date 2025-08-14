@@ -1,9 +1,9 @@
 import { Helmet } from "react-helmet-async";
 import { useLocation, useNavigate } from "react-router-dom";
-import { FormEvent, useState } from "react";
+import {  useState } from "react";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
-import {  UserPlus, Building2, PlusCircle } from "lucide-react";
+import { PlusCircle } from "lucide-react";
 const Members = () => {
   const location = useLocation();
   const canonical = `${window.location.origin}${location.pathname}`;
@@ -64,4 +64,4 @@ const Members = () => {
   );
 };
 
-export default Merchants;
+export default Members;
