@@ -7,7 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { toast } from "sonner";
 import { FormEvent, useState } from "react";
 
-const MerchantCreate = () => {
+const MembersCreate = () => {
   const location = useLocation();
   const canonical = `${window.location.origin}${location.pathname}`;
   const [loading, setLoading] = useState(false);
@@ -24,14 +24,14 @@ const MerchantCreate = () => {
   return (
     <>
       <Helmet>
-        <title>Create Merchant — Admin</title>
+        <title>Create Member — Admin</title>
         <meta name="description" content="Create a new merchant account." />
         <link rel="canonical" href={canonical} />
       </Helmet>
 
       <header className="mb-6">
-        <h1 className="text-2xl font-bold">Create Merchant</h1>
-        <p className="text-muted-foreground mt-1">Onboard a new merchant</p>
+        <h1 className="text-2xl font-bold">Create Members</h1>
+        <p className="text-muted-foreground mt-1">Onboard a new Members</p>
       </header>
 
       <form onSubmit={onSubmit} className="grid gap-4 max-w-xl">
@@ -66,4 +66,4 @@ const MerchantCreate = () => {
   );
 };
 
-export default MerchantCreate;
+export default MembersCreate;

@@ -1,10 +1,10 @@
 import { Helmet } from "react-helmet-async";
 import { useLocation, useNavigate } from "react-router-dom";
-import { FormEvent, useState } from "react";
+import { useState } from "react";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
-import {  UserPlus, Building2, PlusCircle } from "lucide-react";
-const Merchants = () => {
+import { PlusCircle } from "lucide-react";
+const GS1 = () => {
   const location = useLocation();
   const canonical = `${window.location.origin}${location.pathname}`;
  const [loading, setLoading] = useState(false);
@@ -13,7 +13,7 @@ const Merchants = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-      navigate("/merchants/create"); // <-- navigate to another page
+      navigate("/member/create"); // <-- navigate to another page
     }, 1000); // simulate async action
   };
   return (
@@ -64,4 +64,4 @@ const Merchants = () => {
   );
 };
 
-export default Merchants;
+export default GS1;

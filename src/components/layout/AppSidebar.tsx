@@ -14,7 +14,7 @@ import {
 const items = [
   { title: "Dashboard", url: "/dashboard", icon: LayoutDashboard },
   { title: "Users", url: "/users", icon: Users },
-  { title: "Merchants", url: "/merchants", icon: Building2 },
+  { title: "Members", url: "/member", icon: Building2 },
   { title: "GS1-128", url: "/gs1-128", icon: BookText },
   { title: "GLN", url: "/gln", icon: BookPlus },
    { title: "GTIN", url: "/gtin", icon: LayoutList },

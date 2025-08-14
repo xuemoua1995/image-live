@@ -32,7 +32,7 @@ const Index = () => {
         </Card>
         <Card className="transition-shadow hover:shadow-lg bg-green-600 text-white">
           <CardHeader>
-            <CardTitle>Active Merchants</CardTitle>
+            <CardTitle>Active Members</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="text-3xl font-semibold">312</div>
@@ -57,13 +57,13 @@ const Index = () => {
             <Link to="/users/create">Create User</Link>
           </Button>
           <Button asChild>
-            <Link to="/merchants/create">Create Merchant</Link>
+            <Link to="/member/create">Create Member</Link>
           </Button>
           <Button variant="secondary" asChild>
             <Link to="/users">View Users</Link>
           </Button>
           <Button variant="secondary" asChild>
-            <Link to="/merchants">View Merchants</Link>
+            <Link to="/member">View Members</Link>
           </Button>
         </div>
       </section>

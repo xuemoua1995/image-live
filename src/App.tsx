@@ -9,8 +9,8 @@ import AppLayout from "@/components/layout/AppLayout";
 import { HelmetProvider } from "react-helmet-async";
 import Users from "@/pages/User/Users";
 import UserCreate from "@/pages/User/UserCreate";
-import Merchants from "@/pages/Member/Members";
-import MerchantCreate from "@/pages/Member/MembersCreate";
+import Members from "@/pages/Member/Members";
+import MembersCreate from "@/pages/Member/MembersCreate";
 import GTIN from "@/pages/GTIN/GTIN";
 import GLN from "@/pages/GLN/GLN";
 import GS1 from "@/pages/GS1/GS1-128";
@@ -31,8 +31,8 @@ const App = () => (
               <Route path="/dashboard" element={<Index />} />
               <Route path="/users" element={<Users />} />
               <Route path="/users/create" element={<UserCreate />} />
-              <Route path="/merchants" element={<Merchants />} />
-              <Route path="/merchants/create" element={<MerchantCreate />} />
+              <Route path="/member" element={<Members />} />
+              <Route path="/member/create" element={<MembersCreate />} />
               <Route path="/gtin" element={<GTIN />} />
               <Route path="/gln" element={<GLN />} />
               <Route path="/gs1-128" element={<GS1 />} />

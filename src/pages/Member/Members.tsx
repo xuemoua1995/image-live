@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { useLocation, useNavigate } from "react-router-dom";
-import {  useState } from "react";
+import { useState } from "react";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
 import { PlusCircle } from "lucide-react";
@@ -13,20 +13,20 @@ const Members = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-      navigate("/merchants/create"); // <-- navigate to another page
+      navigate("/member/create"); // <-- navigate to another page
     }, 1000); // simulate async action
   };
   return (
     <>
       <Helmet>
-        <title>Merchants — Admin</title>
+        <title>Members — Admin</title>
         <meta name="description" content="View and manage merchant accounts." />
         <link rel="canonical" href={canonical} />
       </Helmet>
 
       <header className="mb-6">
-        <h1 className="text-2xl font-bold">Merchants</h1>
-        <p className="text-muted-foreground mt-1">All merchant accounts</p>
+        <h1 className="text-2xl font-bold">Members</h1>
+        <p className="text-muted-foreground mt-1">All members accounts</p>
       </header>
        <div className="pt-2">
           <Button type="submit" onClick={handleClick} disabled={loading}>
