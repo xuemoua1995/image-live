@@ -14,6 +14,8 @@ import MembersCreate from "@/pages/Member/MembersCreate";
 import GTIN from "@/pages/GTIN/GTIN";
 import GLN from "@/pages/GLN/GLN";
 import GS1 from "@/pages/GS1/GS1-128";
+import News from "@/pages/News/news";
+import CreateNews from "@/pages/News/createNews";
 import Login from "@/pages/Login";
 const queryClient = new QueryClient();
 
@@ -36,6 +38,8 @@ const App = () => (
               <Route path="/gtin" element={<GTIN />} />
               <Route path="/gln" element={<GLN />} />
               <Route path="/gs1-128" element={<GS1 />} />
+              <Route path="/news" element={<News />} />
+              <Route path="/news/create" element={<CreateNews />} />
             </Route>
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />

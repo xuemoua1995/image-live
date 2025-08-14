@@ -36,7 +36,7 @@ const MembersCreate = () => {
 
       <form onSubmit={onSubmit} className="grid gap-4 max-w-xl">
         <div className="grid gap-2">
-          <Label htmlFor="name">Merchant name</Label>
+          <Label htmlFor="name">Member name</Label>
           <Input id="name" placeholder="Acme Corp" required />
         </div>
         <div className="grid gap-2">
